@@ -9,9 +9,7 @@ A modern, beautiful task management application built with React, Vite, Material
 
 ## 🌐 Live Demo
 
-Check out the live demo: [View Demo on GitHub Pages](#)
-
-> **Note:** The demo URL will be added soon!
+Check out the live demo: [View Demo on GitHub Pages](https://cristiancortes1.github.io/react-tasks-app/)
 
 ## ✨ Features
 
