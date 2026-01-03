@@ -2,19 +2,8 @@
 
 @layer base {
   body {
-    @apply bg-[#10002b] font-[Montserrat];
+    @apply bg-[#0a1929] font-[Montserrat];
   }
 }
 
 
-/* .task-container {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.form-title {
-  font-size: 1.5rem;
-  color: #c77dff;
-} */

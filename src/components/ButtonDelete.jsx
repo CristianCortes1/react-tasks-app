@@ -5,13 +5,13 @@ function ButtonDelete({ children, sx, ...props }) {
   return (
     <Button
       sx={{
-        backgroundColor: "#590d22",
+        backgroundColor: "#c62828",
         color: "#fff",
         borderRadius: "12px",
         textTransform: "none",
         fontWeight: "bold",
         "&:hover": {
-          backgroundColor: "#ff4d6d",
+          backgroundColor: "#ef5350",
         },
       }}
       variant="contained"

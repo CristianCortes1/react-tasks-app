@@ -7,7 +7,7 @@ function FormContainer({ children, sx, ...props }) {
         mt: 2,
         mb: 2,
         p: 2,
-        backgroundColor: "#240046",
+        backgroundColor: "#132f4c",
         color: "#0B2545",
         borderRadius: "10px",
         display: "flex",
@@ -15,7 +15,7 @@ function FormContainer({ children, sx, ...props }) {
         justifySelf: "center",
         gap: "5px",
         width: "50%",
-        boxShadow: "0 0 5px 3px #3C096C",
+        boxShadow: "0 0 5px 3px #1565c0",
       }}
       component="form"
       {...props}

@@ -32,9 +32,9 @@ export default function TableTasks() {
                 align={column.align}
                 style={{ minWidth: column.minWidth }}
                 sx={{
-                  bgcolor: "#240046",
-                  color: "#C77DFF",
-                  borderBottom: "2px solid #7B2CBF",
+                  bgcolor: "#132f4c",
+                  color: "#90caf9",
+                  borderBottom: "2px solid #1976d2",
                   textAlign: "center",
                 }}
               >
@@ -43,9 +43,9 @@ export default function TableTasks() {
             ))}
             <TableCell
               sx={{
-                bgcolor: "#240046",
-                color: "#C77DFF",
-                borderBottom: "2px solid #7B2CBF",
+                bgcolor: "#132f4c",
+                color: "#90caf9",
+                borderBottom: "2px solid #1976d2",
                 textAlign: "center",
               }}
               style={{ minWidth: 30 }}
@@ -64,13 +64,14 @@ export default function TableTasks() {
                 key={task.id}
                 sx={{
                   "& td": {
-                    backgroundColor: "#9D4EDD",
+                    backgroundColor: "#1e3a5f",
                     transition: "background-color 0.2s ease",
                     textAlign: "center",
+                    color: "#e3f2fd",
                   },
 
                   "&:hover td": {
-                    backgroundColor: "#C77DFF",
+                    backgroundColor: "#2e5984",
                   },
                 }}
               >
@@ -81,7 +82,7 @@ export default function TableTasks() {
                       key={column.id}
                       align={column.align}
                       sx={{
-                        borderBottom: "1px solid #5A189A",
+                        borderBottom: "1px solid #1565c0",
                       }}
                     >
                       {column.format && typeof value === "number"
@@ -92,7 +93,7 @@ export default function TableTasks() {
                 })}
                 <TableCell
                   sx={{
-                    borderBottom: "1px solid #5A189A",
+                    borderBottom: "1px solid #1565c0",
                   }}
                 >
                   <ButtonDelete onClick={() => deleteTask(task.id)}>

@@ -5,13 +5,13 @@ function ButtonSubmit({ children, sx, ...props}) {
   return (
     <Button
         sx={{
-          backgroundColor: "#7B2CBF",
+          backgroundColor: "#1976d2",
           color: "#fff",
           borderRadius: "12px",
           textTransform: "none",
           fontWeight: "bold",
           "&:hover": {
-            backgroundColor: "#5A189A",
+            backgroundColor: "#1565c0",
           },
         }}
         variant="contained"

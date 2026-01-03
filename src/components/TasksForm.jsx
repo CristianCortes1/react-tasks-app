@@ -24,7 +24,7 @@ function TasksForm() {
 
   return (
     <FormContainer onSubmit={handleSubmit}>
-      <h2 className="text-lg text-violet-600 font-bold">Create Task</h2>
+      <h2 className="text-lg text-blue-400 font-bold">Create Task</h2>
       <InputText label={"Task Title"} inputRef={titleRef} autoFocus />
       <InputText
         label={"Task Description"}

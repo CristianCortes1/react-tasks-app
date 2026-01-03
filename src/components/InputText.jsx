@@ -1,6 +1,6 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
-function InputText({ label, sx, inputRef, ...props }) {
+function InputText({ label, inputRef, ...props }) {
   return (
     <TextField
       id="standard-basic"
@@ -9,29 +9,29 @@ function InputText({ label, sx, inputRef, ...props }) {
       inputRef={inputRef}
       sx={{
         "& .MuiInputBase-input": {
-          color: "#E0AAFF",
+          color: "#90caf9",
         },
         "& label.Mui-focused": {
-          color: "#E0AAFF",
+          color: "#90caf9",
         },
         "& .MuiInputLabel-root": {
-          color: "#3C096C",
+          color: "#42a5f5",
         },
         // Línea normal (sin focus)
         "& .MuiInput-underline:before": {
-          borderBottomColor: "#3C096C",
+          borderBottomColor: "#1976d2",
         },
 
         // Hover (CORRECTO)
         "& .MuiInput-underline:hover:not(.Mui-disabled):before": {
-          borderBottomColor: "#5A189A",
+          borderBottomColor: "#42a5f5",
         },
 
         // Focus
         "& .MuiInput-underline:after": {
-          borderBottomColor: "#7B2CBF",
+          borderBottomColor: "#64b5f6",
         },
-        label: { color: "#7B2CBF" },
+        label: { color: "#1976d2" },
       }}
       {...props}
     />
